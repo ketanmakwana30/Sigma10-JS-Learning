@@ -36,6 +36,8 @@ student.gender = "male";                //Add new key and value
 delete student.age;                     //Delete key (age)
 
 
+//Object of Objects
+
 const classInfo = {
     shradha:{
         marks: 89,
@@ -54,3 +56,27 @@ const classInfo = {
         city: "Dehradun"
     }
 }
+
+//Array of Objects
+
+const classInfo2 = [
+    {
+        name: "shradha",
+        marks: 89, 
+        grade: "A",
+        city: "Hariyana"
+    },
+    {
+        name: "aman",
+        marks: 98,
+        grade: "A+",
+        city: "Delhi"
+    },
+
+    {
+        name: "rajat",
+        marks: 76,
+        grade: "B",
+        city: "Dehradun"
+    }
+]
