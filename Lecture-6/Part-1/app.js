@@ -26,7 +26,7 @@ function isAdult(){
 
 
 
-// Practice Question set- 1
+// Practice Question set- 1 (poim)
 
 function printPoim(){
     console.log("Twinkle, twinkle, little star,");
@@ -37,9 +37,50 @@ function printPoim(){
 // printPoim();
 
 
-// Practice Question set- 2
 
-function diseNum (){
-        console.log( Math.floor(Math.random() *6 )+ 1);
+// Practice Question set- 2 (dise)
+
+function rollDise (){
+    let random = Math.floor(Math.random() *6 )+ 1;
+    console.log(random);
 }
-diseNum();
+// rollDise();
+
+
+
+// Function with arguments
+
+function printInfo(name, age, gender){                               //parameter name, age, gender
+    console.log(`${name}'s age is ${age} and he is ${gender}.`);
+}
+// printInfo("ketan",19, "male");                                      //argument ketan, 19, male  
+
+
+
+// Simple sum function
+
+function sum(a, b){
+    console.log(a + b);
+}
+// sum(54,23);
+
+
+
+// Practice Question Set- 3 (average of 3 number)
+
+function calcAvg(a, b, c){
+    let avg = (a + b + c)/3;
+    console.log(avg);   
+}
+// calcAvg(15,20,40);
+
+
+
+// Practice Question Set- 4 (multiplication table)
+
+function printTable(n){
+    for(let i=n; i<=n*10; i+=n){
+        console.log(i); 
+    }
+}
+// printTable(4);
