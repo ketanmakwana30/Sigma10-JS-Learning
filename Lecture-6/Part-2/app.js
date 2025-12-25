@@ -66,6 +66,21 @@ changeGreet();          //namaste!
 // Function Expression 
 
 const calSum = function(a,b){
-    return a + b;
+    return a+b;
 }
-calSum(4,6);
+console.log(calSum(4,6));
+
+
+
+
+// Higher order function
+
+function multipleGreet(func, count){
+    for(let i=1; i<=20; i++){
+        func();
+    }
+}
+let greet1 = function(){
+    console.log("Hello!");
+}
+multipleGreet(greet1, 5)
