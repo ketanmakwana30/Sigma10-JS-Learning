@@ -1,5 +1,7 @@
 //ARRAY METHODS
 
+
+
 // forEach method
 
 let arr = [1, 2, 3, 4 ,5];
@@ -37,6 +39,8 @@ let students = [
 // });
 
 
+
+
 // map method
 
 let gpa = students.map( (el) => {
@@ -49,10 +53,35 @@ let square = arr.map( (el) => {             //map method
 });
 
 
+
+
 // filter method
 
-let num = [1, 3, 4, 5, 6, 7, 10, 11, 12, 13];
-let fil = num.filter( (el) => {
-    return el % 2 == 0 ; 
+let nums = [1, 2, 3, 4, 5, 8, 9, 10];
+
+let even = nums.filter( (el) => {
+    return el % 2 == 0 ;
 });
-console.log(fil);
+console.log(even);
+
+
+
+//every method
+
+nums = [2, 4, 6, 10];
+let checkEvery = nums.every( (el) => (el%2 == 0));
+console.log(checkEvery);                               //ture
+
+
+
+// some method
+
+nums = [1, 3, 5, 6];
+
+let checkSome = nums.some( (el) => (el%2 == 0));
+console.log(checkSome);                               //ture
+
+
+
+//reduce method
+
