@@ -115,3 +115,33 @@ let findMax = maxArr.reduce( (max, el) => {
         }
     });
     console.log(findMax);
+
+
+
+
+// Practuce Question set
+
+
+// Q-1. In array are multipuls of 10 or not.
+
+let num = [10, 20, 30, 40, 50];
+
+let checkTen = num.every( (el) => (el % 10 == 0));
+
+console.log(checkTen);
+
+
+// Q-2. Create an function to find minimum number of array.
+
+function getMin(num){
+    let min = num.reduce( (min, el) => {
+        if (min < el){
+            return min;
+        }else{
+            return el;
+        }
+    });
+    return min; 
+};
+
+console.log(getMin(num));
