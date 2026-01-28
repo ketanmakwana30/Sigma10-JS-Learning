@@ -1,8 +1,8 @@
 // document.all[8].innerText = "Peter Parker";
 
-document.getElementById("mainImg");                 // getElementById
+document.getElementById("mainImg");                     // getElementById Method
 
-document.getElementsByClassName("boxLink");         // getElementsByClassName
+document.getElementsByClassName("boxLink");             // getElementsByClassName Method
  
 let smallImages = document.getElementsByClassName("oldImg");
 
@@ -15,5 +15,37 @@ for(let i = 0; i <= smallImages.length; i++){                   // Print All ima
     console.dir(smallImages[i]);
 }
 
+document.getElementsByTagName("p");                     // getElementsByTagName Method
 
-document.getElementsByTagName("p");                 // getElementsByTagName
+console.dir(document.querySelector("h1"));              // querySelector --> tag
+
+console.dir(document.querySelector("#description"));    // querySelector --> id
+
+console.dir(document.querySelector(".boxLink"));              // querySelector --> class
+
+console.dir(document.querySelector("div a"));              // Nester element
+
+
+console.dir(document.querySelectorAll("div a"));              // All Element
+
+
+// let para = document.querySelector('p');
+// para.innerText;
+// para.textContent;
+// para.innerHTML;
+
+
+
+// Manipulation 
+
+let heading = document.querySelector("h1");
+// heading.innerHTML = "<u>Spider Man</u>";
+heading.innerHTML = `<u>${heading.innerText}</u>`;
+
+
+// Manipulating Attributes
+
+let image = document.querySelector("img");
+
+image.getAttribute('id');                   // Getter   ( Use getAttribute )
+image.setAttribute('id', 'spiderman');      // Setter   ( Use SetAttribute )
