@@ -18,11 +18,10 @@ btn.addEventListener("click", function (event) {
     task.value = "";
 });
 
-let delBtns = document.querySelectorAll(".delete");
+ul.addEventListener("click", function (event) {
+    if (event.target.nodeName == "BUTTON") {
+        let listItem = event.target.parentElement;  
+        listItem.remove();        
+    }
+});
 
-for (deleteBtn of delBtns){
-    deleteBtn.addEventListener("click", function () {
-        let par = this.parentElement;
-        par.remove();
-    });
-}

@@ -65,6 +65,10 @@ h1 {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
+#btn:focus {
+    background-color: rgba(7, 85, 76, 0.919);
+}
+
 .delete {
     margin-left: 5px;
     padding: 0 5px;
