@@ -8,6 +8,8 @@ function demo() {
 }
 demo();
 
+
+
 // For Breakpoint 
 
 function one(){
@@ -21,6 +23,8 @@ function three(){
     console.log(ans);
 }
 three();    
+
+
 
 // JS is Single Threaded (One time one Work (Function etc...),One Execution at a Time) ==> Use Callback
 
