@@ -1,5 +1,5 @@
 ## Simon Game
-![Simin-game-play](../Images/03_simon-game-1.png)
+![Simin-game-play](../Images/03-simon_game_1.png)
 
 ## Simon Game Result
-![Simin-game-result](../Images/03_simon-game-2.png)
+![Simin-game-result](../Images/03-simon_game_2.png)

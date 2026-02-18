@@ -1,2 +1,2 @@
 ## Todo App
-![todo-app](../Images/02_todo-app.png)
+![todo-app](../Images/02-todo_app.png)

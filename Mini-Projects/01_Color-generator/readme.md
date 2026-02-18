@@ -1,2 +1,2 @@
 ## Color Generator
-![Color-Generator](../Images/01_color-generator.png)
+![Color-Generator](../Images/01-color_generator.png)
